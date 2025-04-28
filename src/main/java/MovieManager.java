@@ -27,8 +27,7 @@ public class MovieManager {
         int resultLength;
         if (movies.length != limit) {
             resultLength = movies.length;
-        }
-        else {
+        } else {
             resultLength = limit;
         }
         String[] tmp = new String[resultLength];
