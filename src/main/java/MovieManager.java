@@ -1,5 +1,6 @@
 public class MovieManager {
     private int limit;
+    private String[] movies = new String[0];
 
     public MovieManager() {
         this.limit = 5;
@@ -8,8 +9,6 @@ public class MovieManager {
     public MovieManager(int limit) {
         this.limit = limit;
     }
-
-    private String[] movies = new String[0];
 
     public void addMovie(String movie) {
         String[] tmp = new String[movies.length + 1];
